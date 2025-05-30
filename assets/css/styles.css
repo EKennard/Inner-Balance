@@ -1,0 +1,205 @@
+/* This is the main HTML file for the 1st milestone project Inner Balance*/
+
+/* Google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Fleur+De+Leah&family=Island+Moments&family=MonteCarlo&family=Poiret+One&display=swap');
+
+/* css variables */
+:root {
+  --primary-color: ;
+  --primary-font: "Fleur De Leah", cursive;
+
+  --secondary-color: ;
+  --secondary-font: "Poiret One", sans-serif;
+
+  --tertiary-color: ;
+  --highlight-color: ;
+}
+
+/* ------------------------------------------ Global styles -------------------------------------------*/
+.container-fluid {
+  padding: 0%;
+}
+
+body {
+  background-color: rgb(153, 105, 88);
+}
+
+h1 {
+  font-family: var(--primary-font);
+  font-size: 10rem;
+}
+
+h1,
+h2,
+h3,
+p {
+  text-align: center;
+  font-family: var(--secondary-font)
+}
+
+.section {
+  padding-top: 4rem;
+}
+
+/* ----------hero----------- */
+
+#header {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image: url("assets/images/hero-image1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+#hero {
+  width:100%;
+  height: 400px;
+  position:relative;
+  background: url(assets\images\hero-image1.jpg) no-repeat center center/cover;
+}
+
+#hero-image {
+  width: 100%;
+  object-fit: cover;
+  height:550px;
+  display:block;
+}
+
+#hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  background: rgba(#080404);
+  padding: 20px;
+  border-radius: 10px;
+  size: inherit;
+}
+
+.title-inner, .title-balance {
+  font-size: 4rem;
+  font-family: var(--primary-font);
+}
+
+.title-inner {
+  position
+}
+
+/* .i1 {}
+.n1 {}
+.n2 {}
+.e1 {}
+.r1 {top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-2deg)}
+.b1 {top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(2deg)}
+.a1 {}
+.l1 {}
+.a2 {}
+.n3 {}
+.c1 {}
+.e2 {} */
+
+.slogan {
+  font-size: 1.5rem;
+  font-family: var(--secondary-font);
+}
+
+* .image-fade-out {
+  position: relative; 
+}
+
+/* .image-fade-out:after {
+  content:"none"; 
+  position: absolute; 
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to bottom, rgba(14, 197, 48, 0) 0%,rgba(255,255,255,1) 100%);
+  height: 40%;  
+}  */
+
+
+
+/* --------------------------------------------------Header --------------------------------------------------*/
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  align-self:flex-start;
+}
+
+.navbar-brand img {
+  width: 50px;
+}
+
+.navbar-toggler {
+  position: absolute;
+  right: 2%;
+  size: 30px;
+}
+
+#navbar .logo {
+  width: 30px;
+}
+ /* ------------------------------------------main section --------------------------------------------------- */
+
+ main {
+  margin-top: 100px
+ }
+/* --------------------------------------------------Intro------------------------------------------------------ */
+
+/* -----------------------------------------------------Meditation ------------------------------------------------- */
+#meditaion-cards .card-footer {
+  font-weight: bold;
+  color: var(--highlight-color);
+  background-color: transparent;
+}
+
+#meditation-cards .card {
+  margin-bottom: 1rem;
+}
+
+/* ----------------------------------------------------Breathwork-------------------------------------------------- */
+#breathwork-cards .card-footer {
+  font-weight: bold;
+  color: var(--highlight-color);
+  background-color: transparent;
+}
+
+#breathwork-cards .card {
+  margin-bottom: 1rem;
+}
+
+/* ----------------------------------------------------Animation------------------------------------------------------ */
+
+/* ------------------------------------------------------Footer---------------------------------------------------------- */
+#resource-cards .card-footer {
+  font-weight: bold;
+  color: var(--highlight-color);
+  background-color: transparent;
+}
+
+#resource-cards .card {
+  margin-bottom: 1rem;
+}
+
+/*---------------------------------------------------- Media Queries------------------------------------------------ */
+
+
+
+
+
+
+
