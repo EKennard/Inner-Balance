@@ -135,12 +135,12 @@ p {
 }
 
 .slogan {
-  font-size: 1.5rem;
   font-family: var(--secondary-font);
+  font-size: larger;
   position: absolute;
   top: 177%;
   left: 50%;
-  width: 50rem;
+  width: 100%;
   transform: translate(-50%, -50%);
 }
 
