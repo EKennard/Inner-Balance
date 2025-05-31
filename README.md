@@ -2,7 +2,7 @@
 <h1 align="center">Inner Balance</h1>
 
 <div align="center"> 
-<a target="_blank" href="……"> | Live Link Here | </a>
+<a target="_blank" href="https://ekennard.github.io/Inner-Balance/"> | Live Link Here | </a>
 <a target="_blank" href="……"> </a>
 <p>
 Welcome to the readme to ‘Inner Balance’, my first milestone project for the Code Institutes Full Stack Software Developer Bootcamp. 
