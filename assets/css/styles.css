@@ -32,9 +32,13 @@ h1 {
 h1,
 h2,
 h3,
-p {
+h4,
+h5,
+p,
+li {
   text-align: center;
-  font-family: var(--secondary-font)
+  font-family: var(--secondary-font);
+  font-weight: bold;
 }
 
 .section {
@@ -46,6 +50,9 @@ p {
   font-family: var(--primary-font);
 }
 
+p {
+  padding: 20px;
+}
 /* --------------------------------------------------Header --------------------------------------------------*/
 #header .container-fluid {
   height: 550px;
@@ -155,7 +162,7 @@ main {
 
 
 /* -----------------------------------------------------info cards------------------------------------------------- */
-#info-cards .card-footer {
+/* #info-cards .card-footer {
   font-weight: bold;
   color: var(--highlight-color);
   background-color: transparent;
@@ -163,9 +170,23 @@ main {
 
 #info-cards .card {
   margin-bottom: 1rem;
+} */
+
+/* .card-text {
+  padding-top: 0;
+} */
+
+.card-title {
+  padding-bottom: 10px;
 }
 
+#info-card {
+  height: 100%;
+  }
 
+.info-card {
+  margin-bottom: 1.5em;
+}
 /* ----------------------------------------- Rescources--------------------------------------------------- */
 
 
@@ -179,8 +200,8 @@ main {
 @media screen and (min-width: 768px) {
 
   /* makes all service cards the same height for consistency */
-  #services .card-body {
-    min-height: 191px;
+  #info-card #card {
+    min-height: 1000px;
   }
 }
 
@@ -188,8 +209,8 @@ main {
 @media screen and (min-width: 992px) {
 
   /* makes all service cards the same height for consistency */
-  #services .card-body {
-    min-height: auto;
+  #info-card #card {
+    min-height: 1000;
   }
 }
 
@@ -197,8 +218,8 @@ main {
 @media screen and (min-width: 1200px) {
 
   /* makes all service cards the same height for consistency */
-  #services .card-body {
-    min-height: 220px;
+  #info-card #card {
+    min-height: 1000px;
   }
 }
 
@@ -206,7 +227,7 @@ main {
 @media screen and (min-width: 1400px) {
 
   /* makes all service cards the same height for consistency */
-  #services .card-body {
-    min-height: 195px;
+  #info-card #card {
+    min-height: 1000px;
   }
 }
