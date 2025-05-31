@@ -60,7 +60,6 @@ p {
 
 /* ----navbar---- */
 .navbar {
-  /* width: 100%; */
   position: fixed;
   top: 0;
   left: 0;
@@ -71,27 +70,6 @@ p {
 .navbar-brand img {
   width: 50px;
 }
-
-/* .navbar-toggler {
-  position: absolute;
-  right: 2%;
-  size: 30px;
-} */
-
-/* #navbar .logo {
-  width: 30px;
-} */
-
-/* /* #navbar {
-	background-color: var(--primary-color);
-	
-}
-
-/* #navbar-logo {
-  display:flex;
-  z-index: 10;
-	width: 30px;
-}  */
 
 /* ----------hero----------- */
 
@@ -109,7 +87,6 @@ p {
 
 #hero {
   width: 100%;
-  /* height: 400px; */
   position: relative;
   background: url(assets\images\hero-image1.jpg) no-repeat center center/cover;
   background-size: cover;
@@ -119,7 +96,6 @@ p {
   width: 100%;
   object-fit: cover;
   height: 550px;
-  /* display: block; */
 }
 
 #hero-title {
@@ -127,11 +103,7 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* text-align: center; */
   color: white;
-  /* background: rgba(#080404); */
-  /* padding: 20px; */
-  /* border-radius: 10px; */
 }
 
 .slogan {
@@ -162,19 +134,7 @@ main {
 
 
 /* -----------------------------------------------------info cards------------------------------------------------- */
-/* #info-cards .card-footer {
-  font-weight: bold;
-  color: var(--highlight-color);
-  background-color: transparent;
-}
 
-#info-cards .card {
-  margin-bottom: 1rem;
-} */
-
-/* .card-text {
-  padding-top: 0;
-} */
 
 .card-title {
   padding-bottom: 10px;
@@ -200,34 +160,26 @@ main {
 @media screen and (min-width: 768px) {
 
   /* makes all service cards the same height for consistency */
-  #info-card #card {
-    min-height: 1000px;
-  }
+  
 }
 
 /* Large devices (small laptops, 992px and up */
 @media screen and (min-width: 992px) {
 
   /* makes all service cards the same height for consistency */
-  #info-card #card {
-    min-height: 1000;
-  }
+  
 }
 
 /* Extra large devices (large laptops, 1200px and up */
 @media screen and (min-width: 1200px) {
 
   /* makes all service cards the same height for consistency */
-  #info-card #card {
-    min-height: 1000px;
-  }
+  
 }
 
 /* Extra extra large devices (large laptops, 1400px and up */
 @media screen and (min-width: 1400px) {
 
   /* makes all service cards the same height for consistency */
-  #info-card #card {
-    min-height: 1000px;
-  }
+  
 }
