@@ -131,7 +131,7 @@ p {
   font-size: 1.5rem;
   font-family: var(--secondary-font);
   position: absolute;
-  top: 180%;
+  top: 177%;
   left: 50%;
   width: 50rem;
   transform: translate(-50%, -50%);
