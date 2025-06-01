@@ -38,8 +38,14 @@ p,
 li {
   text-align: center;
   font-family: var(--secondary-font);
-  font-weight: bold;
+  font-weight: 1000;
+  font-size: larger;
 }
+
+h2 {
+  font-size: 3em;
+}
+
 
 .section {
   padding-top: 4rem;
@@ -53,25 +59,29 @@ li {
 p {
   padding: 20px;
 }
-/* --------------------------------------------------Header --------------------------------------------------*/
-#header .container-fluid {
-  height: 550px;
-}
 
+/* ---------------------------------------------------nav--------------------------------------------------- */
 /* ----navbar---- */
 .navbar {
   position: fixed;
-  top: 0;
+  /* top: 0;
   left: 0;
-  z-index: 10;
-  align-self: flex-start;
+  z-index: 10; */
+  /* align-self: flex-start; */
+  background-color: rgb(153, 105, 88);
+  padding:0;
+  height: 70px;
 }
 
 .navbar-brand img {
-  width: 50px;
+  width: 60px;
 }
 
-/* ----------hero----------- */
+/* --------------------------------------------------Header --------------------------------------------------*/
+#header .container-fluid {
+  height: 550px;
+  padding: 30px 0 0 0;
+}
 
 #header {
   position: relative;
@@ -83,6 +93,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top:70px;
 }
 
 #hero {
@@ -100,7 +111,7 @@ p {
 
 #hero-title {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -110,19 +121,19 @@ p {
   font-family: var(--secondary-font);
   font-size: larger;
   position: absolute;
-  top: 177%;
+  top: 170%;
   left: 50%;
   width: 100%;
   transform: translate(-50%, -50%);
+  min-width: 12em;
 }
 
 
 /* ------------------------------------------main section --------------------------------------------------- */
 
 main {
-  margin-top: 2rem;
+  padding-top:100px;
 }
-
 /* ----------------------------------------------------Links------------------------------------------------------ */
 
 #page-links .card {
