@@ -77,6 +77,10 @@ p {
   width: 60px;
 }
 
+.navbar-nav {
+  background-color: rgb(153, 105, 88);
+}
+
 /* --------------------------------------------------Header --------------------------------------------------*/
 #header .container-fluid {
   height: 550px;
