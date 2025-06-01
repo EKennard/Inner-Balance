@@ -5,12 +5,12 @@
 
 /* css variables */
 :root {
-  --primary-color: rgb(193, 111, 81);
-  --primary-font: "Fleur De Leah", cursive;
 
-  --secondary-color: ;
+  --primary-font: "Fleur De Leah", cursive;
   --secondary-font: "Poiret One", sans-serif;
 
+  --primary-color: rgb(205, 170, 106);
+  --secondary-color: rgba(205, 170, 106, 0.947);
   --tertiary-color: ;
   --highlight-color: ;
 }
@@ -35,7 +35,8 @@ h3,
 h4,
 h5,
 p,
-li {
+li 
+{
   text-align: center;
   font-family: var(--secondary-font);
   font-weight: 1000;
@@ -63,12 +64,7 @@ p {
 /* ----navbar---- */
 .navbar {
   position: fixed;
-  /* top: 0;
-  left: 0;
-  z-index: 10; */
-  /* align-self: flex-start; */
-  /* background-color: rgb(153, 105, 88); */
-  padding:0;
+  padding: 0;
   height: 70px;
 }
 
@@ -76,22 +72,26 @@ p {
   width: 60px;
 }
 
-/* .navbar-nav {
+.navbar-nav {
   background-color: rgb(153, 105, 88);
-} */
+}
 
 #nav-menu {
-  background-color: var(--primary-color);
-  /* display: flex;
-  flex-wrap: wrap;
-  align-content:flex-start; */
+  background-color: var(--secondary-color);
+  /* border-color: black;
+  border-width: px; */
+} 
+
+#menu-button {
+  background-color: var(--secondary-color);
+  color: black;
+  text-align: center;
+  font-family: var(--secondary-font);
+  font-weight: 1000;
+  font-size: larger;
 }
 
-#menu-button{
-  background-color: var(--primary-color);
-  color: black;
-  
-}
+
 /* --------------------------------------------------Header --------------------------------------------------*/
 #header .container-fluid {
   height: 550px;
@@ -146,8 +146,9 @@ p {
 /* ------------------------------------------main section --------------------------------------------------- */
 
 main {
-  padding-top:40px;
+  padding-top: 40px;
 }
+
 /* ----------------------------------------------------Links------------------------------------------------------ */
 
 #page-links .card {
@@ -165,14 +166,28 @@ main {
 
 #info-card {
   height: 100%;
-  }
+}
 
 .info-card {
   margin-bottom: 1.5em;
 }
-/* ----------------------------------------- Rescources--------------------------------------------------- */
 
+#under-construction {
+  display:block;
+  margin:auto;
+}
 
+.btn-primary{
+  display:block;
+  margin:auto;
+  background-color: rgb(165, 97, 42);
+  /* background-color: var(--secondary-color); */
+  color: black;
+  text-align: center;
+  font-family: var(--secondary-font);
+  font-weight: 1000;
+  font-size: larger;
+}
 /* ------------------------------------------------------Footer---------------------------------------------------------- */
 
 
@@ -182,26 +197,26 @@ main {
 @media screen and (min-width: 768px) {
 
   /* makes all service cards the same height for consistency */
-  
+
 }
 
 /* Large devices (small laptops, 992px and up */
 @media screen and (min-width: 992px) {
 
   /* makes all service cards the same height for consistency */
-  
+
 }
 
 /* Extra large devices (large laptops, 1200px and up */
 @media screen and (min-width: 1200px) {
 
   /* makes all service cards the same height for consistency */
-  
+
 }
 
 /* Extra extra large devices (large laptops, 1400px and up */
 @media screen and (min-width: 1400px) {
 
   /* makes all service cards the same height for consistency */
-  
+
 }
