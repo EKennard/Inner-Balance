@@ -1,8 +1,5 @@
 <!doctype html>
 <html lang="en">
-
-
-
 <!------------------------------------------------------ Head --------------------------------------------------->
 
 <head>
@@ -39,8 +36,6 @@
         rel="stylesheet">
 
 </head>
-
-
 <!-------------------------------------------------------Body----------------------------------------------------->
 
 <body class="d-flex flex-column min-vh-100">
@@ -51,15 +46,14 @@
             <a class="navbar-brand text-white" href="index.html">
                 <img src="assets\images\brand_images\Round_logo.png" alt="Logo">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Introduction</a>
-                    </li>
+            <div class="dropdown">
+                <button id="menu-button" class="btn btn-secondary dropdown-toggle" type="button" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Menu
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end" id="nav-menu">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page"
+                            href="index.html">Introduction</a></li>
                     <li class="nav-item">
                         <a class="nav-link" href="meditation.html">Meditation</a>
                     </li>
@@ -77,9 +71,8 @@
                     </li>
                 </ul>
             </div>
-        </div>
     </nav>
-    <!-- Header -->
+    <!-- -----------------------------------------------------Header --------------------------------------------------------------->
     <header class="container-fluid" id="header">
         <section class="container-fluid">
             <div class="hero-image" id="hero">
@@ -94,7 +87,7 @@
 
     </header>
 
-    <!-- main element of the page-->
+    <!---------------------------------------------------- main element of the page----------------------------------------------->
     <main>
 
         <section id="introduction" class="container section">
@@ -172,7 +165,7 @@
 
     </main>
 
-    <!-- footer & contact section -->
+    <!---------------------------------------------------- footer & contact section ------------------------------------------------->
     <footer>
 
 

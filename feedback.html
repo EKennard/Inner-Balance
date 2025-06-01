@@ -45,7 +45,39 @@
 
 <body class="d-flex flex-column min-vh-100">
 
-    <!-- Header -->
+    <!-- Navbar -->
+    <nav class="navbar fixed-top" data-bs-theme="light">
+        <div class="container">
+            <a class="navbar-brand text-white" href="index.html">
+                <img src="assets\images\brand_images\Round_logo.png" alt="Logo">
+            </a>
+            <div class="dropdown">
+                <button id="menu-button" class="btn btn-secondary dropdown-toggle" type="button" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Menu
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end" id="nav-menu">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page"
+                            href="index.html">Introduction</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="meditation.html">Meditation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="breathwork.html">Breathwork</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="exercise.html">Exercises</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resources.html">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="feedback.html">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    <!-- -----------------------------------------------------Header --------------------------------------------------------------->
     <header class="container-fluid" id="header">
         <section class="container-fluid">
             <div class="hero-image" id="hero">
@@ -55,40 +87,11 @@
         </section>
         <div id="hero-title">
             <h1 id="title">Inner<br>Balance</h1>
-            <p class="slogan"><em>Find peace within.<br> Breathe, reflect, heal.</em></p>
+            <p class="slogan"><em> Breathe, reflect, heal.<br>Find peace within.</em></p>
         </div>
-        <!-- Navbar -->
-            <nav class="navbar navbar-expand-lg bg-transparent">
-                <div class="container">
-                    <a class="navbar-brand text-white" href="index.html">
-                        <img src="assets\images\brand_images\Round_logo.png" alt="Logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Introduction</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="meditation.html">Meditation</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="breathwork.html">Breathwork</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="resources.html">Resources</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="feedback.html">Feedback</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+
     </header>
+
 
     <!-- main element of the page-->
     <main>
