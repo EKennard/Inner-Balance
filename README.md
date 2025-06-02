@@ -22,19 +22,12 @@ The live project can be found here: <a target="_blank" href="https://ekennard.gi
 - [UX/UI Design](#design)
   -	[User Stories](#user-stories)
   -	[Wireframes](#wireframes)
-  -	[Fonts](#fonts)
   -	[Colour Design](#colour-design)
   -	[Imagery](#imagery)
+  -	[Fonts](#fonts)
 - [Features](#features)
-  -	[Hero Section](#hero-section)
-    -	[Hero Image](#hero-image)
-    -	[Navigation](#navigation)
+  -	[Navigation](#navigation)
   -	[Main content](#main-content)
-    -	[Meditation Section](#meditation-section)
-    -	[Breathwork Section](#breathwork-section)
-    -	[Breathwork Animation](#breathwork-animation)
-  -	[Footer](#footer)
-    - [Socials and Resource Links](#socials-and-resource-links)
 - [AI Utilisation](#ai-utilisation)
 - [Deployment](#deployment)
 - [Testing and Debugging](#testing-and-debugging)
@@ -47,20 +40,20 @@ The live project can be found here: <a target="_blank" href="https://ekennard.gi
 # Introduction
 
 ### Brief
-Inner Balance is a visually calming and accessible single page website built using HTML, CSS, and Bootstrap to promote mindfulness and mental well-being.
-
-
-
-
-
-
+Inner Balance is a wellness-focused website built using HTML, CSS, and Bootstrap to promote mindfulness and mental well-being. It is designed to introduce users to meditation and breathwork techniques, giving them the tools they need to combat stress and anxiety. 
+ 
 ### Key Objectives
--	Provide concise meditation guides for beginners and experienced practitioners.
+-	Provide meditation guides for beginners and experienced practitioners alike.
 -	Create a soothing visual atmosphere to encourage relaxation.
 -	Ensure mobile responsiveness for seamless user experience across devices.
 -	Utilize Bootstrap components for structured and engaging design.
 
 ## UX/UI Design
+
+The website is designed for:
+- Users seeking beginner-friendly guidance on meditation and breathwork techniques .
+- Those looking for accessible, and easy-to-navigate wellness resources.
+
 ### User Stories
 #### Must Haves:
 <li>As a user, I want a calming and visually appealing homepage with clear navigation links to the different sections within the page so that I feel immediately relaxed when I visit the site and can easily access relevant content.
@@ -86,34 +79,66 @@ Inner Balance is a visually calming and accessible single page website built usi
 Balsamiq was used to design the wireframes and to outline the key outline of the features across 3 device sizes; small screen, medium screens and large screens. 
 
 <div>
-![New Wireframe 1.png](readme_images\New Wireframe 1.png)
+
+![Inner Balance Wireframe](readme_images/inner_balance_wireframe.png)
+
+A basic design was chosen to complement the content of the site, and consisted of a hero section with an image, a logo and a menu button, followed by a main section with text and information and/or link cards, and a footer with links to proffesional mental health bodies.
 <div>
 
 ### Colour Design 
-Warm
-![Inner Balance Wireframe](/……...png)
-https://coolors.co/f0ead2-dde5b6-adc178-a98467-6c584c
- 
-Cool
-![Inner Balance Wireframe](/……...png)
-https://coolors.co/add7f6-87bfff-3f8efc-2667ff-3b28cc
- 
+The colour pallette for this was purposefully very limited in order to be calming, and to not distract form the content. It consisted of black and white for the font (depending on background contrast needs) alongside a pale yellow/sand for the main backgrouns and highlight colour (though this had some opacity adjustments) and rusty-orange colour hover actions. These had several iterations throughout the deveolpment stage due to user testing (see below).
+
+There was also a secondary colour shceme planned which followed the brand imagery colours, though this was not implemented for this project.
+
+![Colour Schemes](readme_images\colour_schemes.png)
+
 ### Imagery
+The majority of the imagery used for the site was AI generated. The exceptions being the Hero image which was aquired from unsplash.com, and the Octopus gif which came from giphly.com. All the static images were compressed using sqoosh before being used.
+
+The 'brand' imagery was also AI generated, and then I altered the colours to create the page links, page logo, and the favicon.
+![Brand Imagery](readme_images\brand_images.png)
+
 ### Fonts
+Two fonts were chosen for the site. The primary font being a more decorative one used solely on the site hero section for the site name, and the second a more practical and (hopefully) still quite decorative one for all the content. 
+
+![fonts](readme_images\fonts.png)
+
 ## Features
-### Navigation and Hero Section
-#### Hero Image
-#### Navigation
+### Navigation
+The main navigation feature of the site cased quite a few problems initially. Inittialy I used a Bootstrap Navbar, however I spent a ridiculous amount of time, compared the the total alotted project time, trying to get it to work properly with my site, and in the end I scrapped it for a homemade button and list using bootstrap classes.
+The end result was more compact and didnt require scaling acros different device sizes.
+
 ### Main Content
-#### Meditation Section
-#### Breathwork Section
-#### Breathwork Animation
-### Footer
-#### Socials and Resources Links
+The main content started off on one page, but as I got more into the project I felt the need to expand the site across several pages.
+All pages have the same colour scheme and basic structure with hero section, main body, and footer.<br><br>The Meditation, Breathwork and Resource pages all feature cards in the main body section, with images, descriptions, and links for the resources. With the exception of the Introduction page, which has links for proffessional mental health bodies, all the footers contain the branded navigation cards for the other 4 main pages.<br><br>The Excercises page features a gif and a message saying "Whoops" as the page is still under construction (purposfully so) and a button to return the use to the into page.<br><br> The final page contains a feedback form with three text input feilds for name and elaim, and 2 bootstrap ranges for the user do indicate their happines with the layour and accessibility. The submit buttom returns the Code Institutes code dump window with the form imputs.
+
+
 ## AI Utilisation
+As Ai was required for this project, but I wanted to code the site myself, I decided to use AI only for the creation of images, writen content, and for the coding of the footer section on the intro page, to illistrate the differences between the capabilities of a human (myself) and Ai. As a result the introduction footer does deviate somewhat from the page colour scheme a little bit, but over I feel it works well.
+
 ## Deployment
+The site was deployed early on Github Pages which allowed me to debug and test as I was developing the site.
 ## Testing and Debugging
+When most of the main conttent was on the Introduction, Meditation and Breahwork pages I sent the live link to a few family and friends to help look for major styling and accesibility issues. The feedback unianimouse feedback from which was:<br>
+A - The font was too hard to read. Too small, and to faint.<br>
+B - The contrast between written content and background colour was not good enough.
+
+This allowed me to change the colour scheme to what is now the final version before final deployment.
+
+Much debugging was done throughout the project due to early deployment, and without the use of AI to help I was forced to actually practice skills such as using documentation properly, and using Chrome Dev tools. Overall I feel this was a good decision as it has helped both my understanding, and confidence in using these resources, and in my ability to find solutions for myself.
 ## Validation
+The html validation checks took a lot longer than I expected, and infinatly longer than I had hoped. Numerous errors were thrown up, from unclosed tags, end tags without opening tags, buttons within a tags...just to name a few. As a consequence I ended up returning to my good friend 'Documentation' to try and fix the issues, and learning a few more things. After several hours however all pages passed with no errors, and only the occasional trailing closing tag.<br>
+The CSS howver passed without issue on the first try :)
+<br>
+
+![html_validation](readme_images\html_validation_checker.png)
+
+![CSS_validation0](readme_images\css_validation_checker.png)
+
+![Lighthouse_results](readme_images/Lighthouse_results.png)
+
+
+
 ## Resources and Credits
 
  - Bootstrap 
@@ -140,44 +165,10 @@ https://coolors.co/add7f6-87bfff-3f8efc-2667ff-3b28cc
 - Google Fonts
   - for font styles
   - https://fonts.google.com/
- - Giphy
-  - for the under construction gif
+- Giphy
+  - for the 'under construction' octopus gif
   - https://giphy.com/
 - Healthline.com
   - for the modal image of the 7 chakras
   - https://www.healthline.com/health/fitness-exercise/7-chakras
 
-# Assessment Criteria & Post Project Reflections
-
-LO1: Learners will be able to design and implement a one-page interactive front-end web application using HTML and CSS based on user experience design principles, accessibility, and responsiveness.
-| Criterion               | Assessment Criteria         | Expected Performance | Personal Reflection |
-| ---------------------- | --------------- | ----------------------------------|----------------------------- |
-| 1.1 Front-End Design        | Design a cohesive one-page layout with a main navigation menu and structured content. Ensure the design adheres to accessibility guidelines, including appropriate colour contrast and alt text for non-text elements. Utilise CSS or CSS frameworks such as Bootstrap to create a responsive design.  | A cohesive one-page layout with a main navigation menu and structured content. Semantic use of HTML. Adherence to accessibility guidelines (colour contrast, alt text). No Web Content Accessibility Guideline (WCAG) errors. The layout adapts to different screen sizes using CSS media queries, Flexbox, Grid, and/or Bootstrap without any major errors/loss of functionality.                              |  
-| 1.2 User Experience       | Organise information using UX principles ensuring headers convey structure and information is easy to find. Ensure the user can initiate and control actions such as playing media (if included) with immediate feedback.  | Information organised using UX principles (clear headers, prioritised information). User-initiated actions (if chosen) with immediate feedback (e.g., media control).                             | 
-
-LO2: Learners will be able to test and validate the one-page web application through the development, implementation, and deployment stages.
-| Criterion               | Assessment Criteria         | Expected Performance | Personal Reflection |
-| ---------------------- | --------------- | ----------------------------------|----------------------------- |
-| 2.1 Code Validation       | Ensure custom HTML and CSS pass W3C and Jigsaw validators with no issues. | HTML and CSS code passing W3C and Jigsaw validators with no issues.|  
-| 2.2 Responsive Design       | Use CSS media queries to ensure the layout is responsive and maintains integrity across different screen sizes. Apply semantic markup for HTML to enhance readability and structure. Ensure the single page features intuitive navigation.| Consistent layout across different screen sizes due to CSS media queries. Clear and semantic HTML structure. Intuitive, functional navigation on the single page.                   | 
-
-
-LO3: Learners will be able to deploy the one-page web application to a cloud platform.
-| Criterion               | Assessment Criteria         | Expected Performance | Personal Reflection |
-| ---------------------- | --------------- | ----------------------------------|----------------------------- |
-| 3.1 Cloud Deployment      |Successfully deploy the final version to a cloud-based platform ensuring it matches the development version. Use Git and GitHub for version control with a clear commit history and clean, commented code. Remove commented-out code before final deployment. Ensure all internal links and interactive elements function correctly. |Successful deployment of the single-page application to a cloud hosting platform with no discrepancies from the development version. Effective use of Git and GitHub for version control with a clear commit history. Removal of commented-out code and confirmation that all internal links work correctly.|  
-
-
-LO4: Learners will be able to maximise future maintainability through documentation, code structure, and organisation.
-| Criterion               | Assessment Criteria         | Expected Performance | Personal Reflection |
-| ---------------------- | --------------- | ----------------------------------|----------------------------- |
-| 4.1 Documentation     | Write a concise README.md file explaining the application’s purpose, user value, and deployment procedure. Include screenshots of the single-page application with brief descriptions and user value explanations. Attribute any code from external sources clearly. | A concise README.md file outlining the application’s purpose, user value, and deployment steps. Screenshots and descriptions of features demonstrating functionality and user benefits. Proper attribution of any external code sources.|  
-
-
-LO5: Learners will be able to leverage AI tools to orchestrate the software development process.
-| Criterion               | Assessment Criteria         | Expected Performance | Personal Reflection |
-| ---------------------- | --------------- | ----------------------------------|----------------------------- |
-| 5.1 Use AI tools to assist in code creation      | Demonstrates strategic use of AI for generating code aligned with project objectives. | Brief reflection in README.md on key decisions where AI was used to generate code, focusing on the outcomes rather than detailed prompts or manual interventions.|  
-| 5.2 Use AI tools to assist in debugging code    | Efficient use of AI tools to identify and resolve code issues.| Brief reflection in README.md summarizing AI’s role in identifying and resolving bugs, noting key interventions.                   | 
-| 5.3 Use AI tools to optimize code for performance and user experience       | AI-driven optimisation for improved performance and user experience.      | Short reflection on how AI contributed to performance and UX improvements. Minimal documentation of AI use.                                 |
-| 5.4 Reflect on AI’s role in the development process and its impact on workflow       | High-level reflection on how AI tools affected the development process, with focus on outcomes rather than detailed steps | README.md includes concise insights into how AI influenced workflow, focusing on efficiency and outcomes without in-depth prompt documentation.page                                 |
