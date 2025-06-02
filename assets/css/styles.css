@@ -101,14 +101,18 @@ h2 {
 
 }
 
-.navbar-nav {
+/* .navbar-nav {
   background-color: rgb(153, 105, 88);
-}
+} */
 
 #nav-menu {
   background-color: var(--primary-highlight-color);
   /* border-color: black;
   border-width: px; */
+}
+
+#nav-menu li:hover {
+background-color: var(--secondary-color);
 }
 
 #menu-button {
@@ -120,6 +124,9 @@ h2 {
   font-size: larger;
 }
 
+#menu-button:hover {
+  background-color: var(--secondary-color);
+}
 
 /* --------------------------------------------------Header --------------------------------------------------*/
 #header .container-fluid {
@@ -219,7 +226,6 @@ main {
   display: block;
   margin: auto;
   background-color: var(--primary-color);
-  /* background-color: var(--secondary-color); */
   color: black;
   text-align: center;
   font-family: var(--secondary-font);
@@ -229,7 +235,13 @@ main {
 }
 
 .btn-primary:hover {
-  background-color: var(--secondary-color)
+  background-color: var(--secondary-color);
+}
+
+.btn-primary:active:focus {
+  background-color: var(--secondary-color);
+  box-shadow: none;
+  border-color: var(--secondary-color);
 }
 
 .btn-secondary {
@@ -242,11 +254,17 @@ main {
   font-weight: 1000;
   font-size: larger;
   border-color: var(--secondary-color);
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .btn-secondary:hover {
-  background-color: var(--secondary-color)
+  background-color: var(--secondary-color);
+}
+
+.btn-secondary:active:focus {
+  background-color: var(--secondary-color);
+  box-shadow: none;
+  border-color: var(--secondary-color);
 }
 
 .card-footer {
@@ -264,12 +282,12 @@ main {
 }
 
 #feedback-form {
-  max-width:50rem;
+  max-width: 50rem;
 }
 
 div .user-details {
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
