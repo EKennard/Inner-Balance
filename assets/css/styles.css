@@ -83,10 +83,6 @@ h2 {
   font-family: var(--primary-font);
 }
 
-/* p {
-  padding: 20px;
-} */
-
 /* ---------------------------------------------------nav--------------------------------------------------- */
 /* ----navbar---- */
 .navbar {
@@ -98,21 +94,14 @@ h2 {
 .navbar-brand img {
   width: 60px;
   padding-top: 0.5em;
-
 }
-
-/* .navbar-nav {
-  background-color: rgb(153, 105, 88);
-} */
 
 #nav-menu {
   background-color: var(--primary-highlight-color);
-  /* border-color: black;
-  border-width: px; */
 }
 
 #nav-menu li:hover {
-background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 #menu-button {
@@ -131,7 +120,6 @@ background-color: var(--secondary-color);
 /* --------------------------------------------------Header --------------------------------------------------*/
 #header .container-fluid {
   height: 550px;
-  /* padding: 30px 0 0 0; */
 }
 
 #header {
@@ -144,7 +132,6 @@ background-color: var(--secondary-color);
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding-top:70px; */
 }
 
 #hero {
@@ -209,7 +196,7 @@ main {
   padding-bottom: 10px;
 }
 
-#info-card {
+.info-card-content {
   height: 100%;
 }
 
@@ -268,12 +255,65 @@ main {
 }
 
 .card-footer {
-  /* background-color: var(--secondary-color); */
   text-align: center;
   font-family: var(--secondary-font);
   font-weight: 1000;
   font-size: larger;
 }
+
+#return-button {
+  display: block;
+  margin: auto;
+  background-color: var(--secondary-color);
+  color: black;
+  text-align: center;
+  font-family: var(--secondary-font);
+  font-weight: 1000;
+  font-size: larger;
+  border-color: var(--secondary-color);
+  max-width: 20rem;
+  text-decoration: none;
+}
+
+#fmp-button,
+#goodful-button,
+#calm-button,
+#mindful-button,
+#NHS-button,
+#playne-button {
+  display: block;
+  margin: auto;
+  background-color: var(--primary-color);
+  color: black;
+  text-align: center;
+  font-family: var(--secondary-font);
+  font-weight: 1000;
+  font-size: larger;
+  border-color: var(--secondary-color);
+  max-width: 10rem;
+  text-decoration: none;
+}
+
+#fmp-button:hover,
+#goodful-button:hover,
+#calm-button:hover,
+#mindful-button:hover,
+#NHS-button:hover,
+#playne-button:hover {
+  display: block;
+  margin: auto;
+  background-color: var(--secondary-color);
+  color: black;
+  text-align: center;
+  font-family: var(--secondary-font);
+  font-weight: 1000;
+  font-size: larger;
+  border-color: var(--secondary-color);
+  max-width: 10rem;
+  text-decoration: none;
+}
+
+
 
 /* ------------------------------------------ FEEDBACK --------------------------------------------------------*/
 #feedback {
@@ -307,15 +347,13 @@ div .user-details {
 }
 
 
-
-
 /* ------------------------------------------------------Footer---------------------------------------------------------- */
 footer {
   margin-bottom: 2rem;
 }
 
 
-/* Copilot Generated --- minor edits to colors */
+/* Copilot Generated footer --- minor edits from me for page colours */
 .page-divider {
   height: 2px;
   background-color: black;
