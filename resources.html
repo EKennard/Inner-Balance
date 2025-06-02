@@ -52,13 +52,12 @@
                 <img src="assets\images\brand_images\Round_logo.png" alt="Logo">
             </a>
             <div class="dropdown">
-                <button id="menu-button" class="btn btn-secondary dropdown-toggle" type="button" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
+                <button id="menu-button" class="btn btn-secondary dropdown-toggle" type="button" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
                     Menu
                 </button>
                 <ul class="dropdown-menu dropdown-menu-end" id="nav-menu">
-                    <li class="nav-item"><a class="nav-link"
-                            href="index.html">Introduction</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Introduction</a></li>
                     <li class="nav-item">
                         <a class="nav-link" href="meditation.html">Meditation</a>
                     </li>
@@ -66,10 +65,10 @@
                         <a class="nav-link" href="breathwork.html">Breathwork</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="exercise.html">Exercises</a>
+                        <a class="nav-link active" aria-current="page" href="resources.html">Resources</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="resources.html">Resources</a>
+                        <a class="nav-link" href="exercise.html">Exercises</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="feedback.html">Feedback</a>
@@ -101,64 +100,142 @@
                 <div class="col-12 text-center">
                     <h2 class="display-8">Resources</h2>
                 </div>
-                <section id="resource-cards">
-                    <div class="col-12 col-md-6 col-xl-3">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h3 class="card-title sub-heading-color"></h3>
-                                <p class="card-text"></p>
-                            </div>
-                            <div class="card-footer">
-                                <p class="mb-0"></p>
-                            </div>
+
+                <div class="info-card col-12 col-md-6 col-xl-4">
+                    <div class="card" id="info-card">
+                        <img src="assets\images\resources\the_fm_project.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title sub-heading-color"></h3>
+                            <p class="card-text">The Free Mindfulness Project provides a collection of free-to-download
+                                mindfulness meditation exercises. It focuses on mindfulness-based stress reduction
+                                (MBSR) and mindfulness-based cognitive therapy (MBCT), offering guided exercises, body
+                                scan scripts, and links to free online mindfulness sessions. The site also connects
+                                users with mindfulness retreats and training opportunities."</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://www.freemindfulness.org/welcome" target="_blank"
+                                aria-label="Go to the Free Mindfulness Prijects site (opens in a new tab)"
+                                rel="noopener">
+                                <button id="resource-button" class="btn btn-secondary" type="button" role="button">
+                                    Go to site</a>
+                            </button>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-xl-3">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h3 class="card-title sub-heading-color"></h3>
-                                <p class="card-text">
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <p class="mb-0"></p>
-                            </div>
+                </div>
+                <div class="info-card col-12 col-md-6 col-xl-4">
+                    <div class="card" id="info-card">
+                        <img src="assets\images\resources\goodful-meditation.png" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h3 class="card-title sub-heading-color"></h3>
+                            <p class="card-text">This Goodful Meditation Playlist on YouTube offers a collection of
+                                guided meditation videos designed to support relaxation, mindfulness, and emotional
+                                well-being. It includes meditations for anxiety, sleep, self-love, stree-relief, and
+                                healing. Each video provides a structured approach to meditation, helping users
+                                cultivate calmness and focus.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://www.youtube.com/playlist?list=PLQiGxGHwiuD1kdxsWKFuhE0rITIXe-7yC"
+                                target="_blank" aria-label="Go to Goodfuls YouTube channel (opens in a new tab)"
+                                rel="noopener">
+                                <button id="resource-button" class="btn btn-secondary" type="button" role="button">
+                                    Go to site</a>
+
+                            </button>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-xl-3">
-                        <div class="card">
-                            <img src="...." class="card-img-top" alt="">
-                            <div class="card-body">
-                                <h3 class="card-title sub-heading-color"></h3>
-                                <p class="card-text">
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <p class="mb-0"></p>
-                            </div>
+                </div>
+                <div class="info-card col-12 col-md-6 col-xl-4">
+                    <div class="card" id="info-card">
+                        <img src="assets\images\resources\calm.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title sub-heading-color"></h3>
+                            <p class="card-text">Calm is a leading meditation and sleep app designed to help users
+                                reduce stress, improve sleep, and enhance mindfulness. It offers a vast library of
+                                guided meditations, sleep stories, breathing exercises, and relaxation music to support
+                                mental well-being. The app also features daily mindfulness sessions and expert-led
+                                programs tailored to different needs, from anxiety relief to focus improvement.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://www.calm.com/" target="_blank"
+                                aria-label="Go to the Calm site (opens in a new tab)"
+                                rel="noopener">
+                                <button id="resource-button" class="btn btn-secondary" type="button" role="button">
+                                    Go to site</a>
+                            </button>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-xl-3">
-                        <div class="card">
-                            <img src="...." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h3 class="card-title sub-heading-color"></h3>
-                                <p class="card-text">
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <p class="mb-0"></p>
-                            </div>
+                </div>
+                <div class="info-card col-12 col-md-6 col-xl-4">
+                    <div class="card" id="info-card">
+                        <img src="assets\images\resources\mindful.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title sub-heading-color"></h3>
+                            <p class="card-text">Mindful.org's Getting Started with Mindfulness section provides a
+                                beginner-friendly introduction to mindfulness and meditation. It explains the core
+                                principles of mindfulness—being fully present and aware—while offering practical
+                                guidance on how to meditate. The site covers techniques for integrating mindfulness into
+                                daily life, reducing stress, and improving focus. It also explores the science behind
+                                mindfulness and its benefits for mental well-being</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://www.mindful.org/meditation/mindfulness-getting-started/" target="_blank"
+                                aria-label="Go to the Mindfulness.org site (opens in a new tab)"
+                                rel="noopener">
+                                <button id="resource-button" class="btn btn-secondary" type="button" role="button">
+                                    Go to site</a>
+                            </button>
                         </div>
                     </div>
+                </div>
+                <div class="info-card col-12 col-md-6 col-xl-4">
+                    <div class="card" id="info-card">
+                        <img src="assets\images\resources\nhs_meditation.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title sub-heading-color"></h3>
+                            <p class="card-text">The NHS Every Mind Matters guide to meditation for beginners provides a
+                                simple, accessible introduction to meditation. It explains the benefits of meditation,
+                                including stress reduction, improved sleep, and emotional balance. The site offers a
+                                7-step guide to meditation, covering how to set aside time, find a comfortable space,
+                                and incorporate mindfulness into the practice. It also features a video tutorial led by
+                                a mindfulness expert to help beginners get started.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/how-to-meditate-for-beginners/"
+                                target="_blank" aria-label="Go to the NHS Every Mind Matters site (opens in a new tab)"
+                                rel="noopener">
+                                <button id="resource-button" class="btn btn-secondary" type="button" role="button">
+                                    Go to site</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-card col-12 col-md-6 col-xl-4">
+                    <div class="card" id="info-card">
+                        <img src="assets\images\resources\playne.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title sub-heading-color"></h3>
+                            <p class="card-text">PLAYNE: The Meditation Game is a unique mindfulness experience where
+                                players cultivate a beautiful island that grows and transforms with their daily
+                                meditation practice. The game offers guided meditations, immersive nature environments,
+                                and relaxation tools to help players build a habit of mindfulness. It features VR
+                                support, customizable landscapes, and interactive elements designed to encourage
+                                emotional well-being.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://store.steampowered.com/app/865540/PLAYNE__The_Meditation_Game/?curator_clanid=41443481"
+                                target="_blank" aria-label="Go to Steam store page (opens in a new tab)" rel="noopener">
+                                <button id="resource-button" class="btn btn-secondary" type="button" role="button">
+                                    Go to site</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
-        </div>
-        </div>
-        </div>
-        </div>
+
+            </div>
+            </div>
+            </div>
+            </div>
 
     </main>
 

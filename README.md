@@ -1,13 +1,19 @@
-![Inner Balance Hero JPG](/……...png)
+![Inner Balance Hero JPG](readme_images\Inner_Balance.png)
 <h1 align="center">Inner Balance</h1>
 
-<div align="center"> 
-<a target="_blank" href="https://ekennard.github.io/Inner-Balance/"> | Live Link Here | </a>
-<a target="_blank" href="……"> </a>
-<p>
+<div align="center">
+
 Welcome to the readme to ‘Inner Balance’, my first milestone project for the Code Institutes Full Stack Software Developer Bootcamp. 
-</div> 
-<div>
+</div>
+
+<br>
+
+<div align="center"> 
+The live project can be found here: <a target="_blank" href="https://ekennard.github.io/Inner-Balance/"><em>Inner Balance<em></a>
+</div>
+ 
+<br>
+
 ## Contents
 
 - [Introduction](#introduction)
@@ -38,10 +44,12 @@ Welcome to the readme to ‘Inner Balance’, my first milestone project for the
 
 </div>
 
-<h1 align="center" id = Introduction> Introduction: </h1>
-<p>Inner Balance is a visually calming and accessible single page website built using HTML, CSS, and Bootstrap to promote mindfulness and mental well-being.
+# Introduction
 
-<p>The live project can be found here: <a target="_blank" href="…….."><em>Inner Balance<em></a>
+### Brief
+Inner Balance is a visually calming and accessible single page website built using HTML, CSS, and Bootstrap to promote mindfulness and mental well-being.
+
+
 
 
 
@@ -76,7 +84,11 @@ Welcome to the readme to ‘Inner Balance’, my first milestone project for the
 ### Wireframes
 
 Balsamiq was used to design the wireframes and to outline the key outline of the features across 3 device sizes; small screen, medium screens and large screens. 
-![Inner Balance Wireframe](/……...png)
+
+<div>
+![New Wireframe 1.png](readme_images\New Wireframe 1.png)
+<div>
+
 ### Colour Design 
 Warm
 ![Inner Balance Wireframe](/……...png)
@@ -128,6 +140,9 @@ https://coolors.co/add7f6-87bfff-3f8efc-2667ff-3b28cc
 - Google Fonts
   - for font styles
   - https://fonts.google.com/
+ - Giphy
+  - for the under construction gif
+  - https://giphy.com/
 
 # Assessment Criteria & Post Project Reflections
 

@@ -33,10 +33,15 @@ h1,
 h2,
 h3,
 h4,
-h5,
+h5 {
+  text-align: center;
+  font-family: var(--secondary-font);
+  font-weight: 1000;
+}
+
+
 p,
-li 
-{
+li {
   text-align: center;
   font-family: var(--secondary-font);
   font-weight: 1000;
@@ -56,9 +61,9 @@ h2 {
   font-family: var(--primary-font);
 }
 
-p {
+/* p {
   padding: 20px;
-}
+} */
 
 /* ---------------------------------------------------nav--------------------------------------------------- */
 /* ----navbar---- */
@@ -70,6 +75,8 @@ p {
 
 .navbar-brand img {
   width: 60px;
+  padding-top: 0.5em;
+ 
 }
 
 .navbar-nav {
@@ -80,7 +87,7 @@ p {
   background-color: var(--secondary-color);
   /* border-color: black;
   border-width: px; */
-} 
+}
 
 #menu-button {
   background-color: var(--secondary-color);
@@ -158,6 +165,14 @@ main {
   margin-bottom: 1rem;
 }
 
+.card-img-overlay .card-title {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: black;
+  justify-content: center;
+}
+
 /* -----------------------------------------------------info cards------------------------------------------------- */
 
 .card-title {
@@ -173,13 +188,13 @@ main {
 }
 
 #under-construction {
-  display:block;
-  margin:auto;
+  display: block;
+  margin: auto;
 }
 
-.btn-primary{
-  display:block;
-  margin:auto;
+.btn-primary {
+  display: block;
+  margin: auto;
   background-color: rgb(165, 97, 42);
   /* background-color: var(--secondary-color); */
   color: black;
@@ -188,6 +203,16 @@ main {
   font-weight: 1000;
   font-size: larger;
 }
+
+.card-footer {
+  /* background-color: var(--secondary-color); */
+  /* color: black; */
+  text-align: center;
+  font-family: var(--secondary-font);
+  font-weight: 1000;
+  font-size: larger;
+}
+
 /* ------------------------------------------------------Footer---------------------------------------------------------- */
 
 
@@ -219,4 +244,30 @@ main {
 
   /* makes all service cards the same height for consistency */
 
+}
+
+
+
+.custom-button-filled {
+	border: 2px solid var(--secondary-color);
+	background-color: var(--highlight-color);
+	color: white;
+}
+
+.custom-button-filled:hover {
+	border: var(--highlight-color);
+	background-color: var(--highlight-color);
+	color: white;
+}
+
+.custom-button-outline {
+	border: 3px solid var(--highlight-color);
+	padding: 7px 25px;
+	color: var(--highlight-color);
+	margin-bottom: 20px;
+}
+
+.custom-button-outline:hover {
+	background-color: var(--highlight-color);
+	color: white;
 }
