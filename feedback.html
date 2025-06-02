@@ -52,13 +52,12 @@
                 <img src="assets\images\brand_images\Round_logo.png" alt="Logo">
             </a>
             <div class="dropdown">
-                <button id="menu-button" class="btn btn-secondary dropdown-toggle" type="button" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
+                <button id="menu-button" class="btn btn-secondary dropdown-toggle" type="button" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
                     Menu
                 </button>
                 <ul class="dropdown-menu dropdown-menu-end" id="nav-menu">
-                    <li class="nav-item"><a class="nav-link"
-                            href="index.html">Introduction</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Introduction</a></li>
                     <li class="nav-item">
                         <a class="nav-link" href="meditation.html">Meditation</a>
                     </li>
@@ -76,6 +75,7 @@
                     </li>
                 </ul>
             </div>
+        </div>
     </nav>
     <!-- -----------------------------------------------------Header --------------------------------------------------------------->
     <header class="container-fluid" id="header">
@@ -95,40 +95,114 @@
 
     <!-- main element of the page-->
     <main>
-  <main>
-        <section id="whoops" class="container section">
-            <div>
-                <h2 class="display-8">Whoops!</h2>
-                <p>Sorry, this page is still under construction.</p>
-                <img id="under-construction"
-                    src="assets\images\Under Construction Work GIF by OctoNation® The Largest Octopus Fan Club!.gif">
-                <p>Please return at a later date for a chance to leave your feedback.</p>
-                <a class="nav-link active" aria-current="page" href="index.html"><button type="button"
-                        class="btn btn-primary">Return to homepage</button>
-                </a>
+        <div class="container section">
+            <h2>Feedback</h2>
+            <div id="feedback" class="">
+                <form id="feedback-form" class="" method="post" action="https://formdump.codeinstitute.net">
+                    <div class="user-details">
+                        <div class="first-name">
+                            <label for="first-name" class="form-label">First Name</label>
+                            <br>
+                            <input type="text" id="first-name" name="first_name" class="form-input" required />
+                        </div>
+
+                        <div class="last-name">
+                            <label for="last-name" class="form-label">Last Name</label>
+                            <br>
+                            <input type="text" id="last-name" name="last_name" class="form-input"
+                                placeholder="Optional" />
+                        </div>
+
+                        <div class="email">
+                            <label for="email-address" class="form-label">Email Address</label>
+                            <br>
+                            <input type="email" id="email-address" name="email_address" class="form-input"
+                                placeholder="Optional" />
+                        </div>
+                    </div>
+                    <div>
+                        <label for=""></label>
+                    </div>
+                    <div class="range">
+                        <div>
+                            <label for=""></label>
+                        </div>
+                        <div id="range">
+                            <p>Is the layout of the site intuitive and user-friendly? </p>
+                            <div class="range-labels">
+                                <label for="layout" class="form-label">Not so great</label>
+                                <label for="layout" class="form-label">OK</label>
+                                <label for="layout" class="form-label">Awesome!</label>
+                            </div>
+                            <input type="range" class="form-range form-input" name="Layout" min="1" max="5" value="3"
+                                id="layout">
+                        </div>
+
+                        <div>
+                            <label for=""></label>
+                        </div>
+
+                        <div id="range">
+                            <p>Is the text readable and easy to understand, with sufficient contrast and clear fonts?
+                            </p>
+                            <div class="range-labels">
+                                <label for="layout" class="form-label">Not so great</label>
+                                <label for="layout" class="form-label">OK</label>
+                                <label for="layout" class="form-label">Awesome!</label>
+                            </div>
+                            <input type="range" class="form-range form-input" name="Accessibility" min="1" max="5"
+                                id="accessibility">
+                        </div>
+
+                        <div class="spacer">
+                            <label for=""></label>
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <label for=""></label>
+                    </div>
+                    <label for="commentsTextarea" class="form-label">Comments</label>
+                    <div>
+                        <label for=""></label>
+                    </div>
+                    <textarea class="form-control" placeholder="Leave a comment here" id="commentsTextarea2"
+                        style="height: 100px"></textarea>
+                    <div>
+                        <label for=""></label>
+                    </div>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="feedbackModal">Submit</button>
+                </form>
             </div>
-    </main>
-        
+
+            <div class="modal fade" id="feedbackModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Thank You!</h1>
+                        </div>
+                        <div class="modal-body">
+                            <p>All feedback is really apreciated and helps me to further develope my skills, so thank
+                                you!</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
-    <!-- footer & contact section -->
+
+
+
     <footer>
 
 
-        <!-- socials links -->
-        <section>
-            <div class="socials">
-                <a href="https://www.instagram.com" target="_blank"
-                    aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
-                        class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.facebook.com" target="_blank"
-                    aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener"><i
-                        class="fa-brands fa-square-facebook"></i></a>
-                <a href="https://www.youtube.com" target="_blank"
-                    aria-label="Visit our YouTube page (opens in a new tab)" rel="noopener"><i
-                        class="fa-brands fa-youtube"></i></i></a>
-            </div>
-        </section>
+
     </footer>
 
     <!-- Bootstrap js link -->

@@ -143,6 +143,9 @@ https://coolors.co/add7f6-87bfff-3f8efc-2667ff-3b28cc
  - Giphy
   - for the under construction gif
   - https://giphy.com/
+- Healthline.com
+  - for the modal image of the 7 chakras
+  - https://www.healthline.com/health/fitness-exercise/7-chakras
 
 # Assessment Criteria & Post Project Reflections
 

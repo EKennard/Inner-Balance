@@ -6,13 +6,31 @@
 /* css variables */
 :root {
 
+  /* FONTS */
   --primary-font: "Fleur De Leah", cursive;
   --secondary-font: "Poiret One", sans-serif;
-
+  /* MAIN COLOURS */
   --primary-color: rgb(205, 170, 106);
-  --secondary-color: rgba(205, 170, 106, 0.947);
-  --tertiary-color: ;
-  --highlight-color: ;
+  --secondary-color: rgb(165, 97, 42);
+  --primary-highlight-color: rgba(205, 170, 106, 0.894);
+  /* MEDITATION COLOURS */
+  --meditation-primary-color: ;
+  --meditation-secondary-color: ;
+  --meditation-primary-highlight-color: ;
+  /* BREATHWORK COLOURS */
+  --breath-primary-color: ;
+  --breath-secondary-color: ;
+  --breath-primary-highlight-color: ;
+  /* RESOURCES COLOURS */
+  --resource-primary-color: ;
+  --resource-secondary-color: ;
+  --resource-primary-highlight-color: ;
+  /* RESOURCES COLOURS */
+  --resource-primary-color: ;
+  --resource-secondary-color: ;
+  --resource-primary-highlight-color: ;
+
+
 }
 
 /* ------------------------------------------ Global styles -------------------------------------------*/
@@ -88,13 +106,13 @@ h2 {
 }
 
 #nav-menu {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-highlight-color);
   /* border-color: black;
   border-width: px; */
 }
 
 #menu-button {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-highlight-color);
   color: black;
   text-align: center;
   font-family: var(--secondary-font);
@@ -158,6 +176,7 @@ h2 {
 
 main {
   padding-top: 40px;
+  padding-bottom: 0.5em;
 }
 
 /* ----------------------------------------------------Links------------------------------------------------------ */
@@ -199,39 +218,133 @@ main {
 .btn-primary {
   display: block;
   margin: auto;
-  background-color: rgb(165, 97, 42);
+  background-color: var(--primary-color);
   /* background-color: var(--secondary-color); */
   color: black;
   text-align: center;
   font-family: var(--secondary-font);
   font-weight: 1000;
   font-size: larger;
+  border-color: var(--secondary-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color)
 }
 
 .btn-secondary {
   display: block;
   margin: auto;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   color: black;
   text-align: center;
   font-family: var(--secondary-font);
   font-weight: 1000;
   font-size: larger;
+  border-color: var(--secondary-color);
+  text-decoration:none;
 }
 
-
+.btn-secondary:hover {
+  background-color: var(--secondary-color)
+}
 
 .card-footer {
   /* background-color: var(--secondary-color); */
-  /* color: black; */
   text-align: center;
   font-family: var(--secondary-font);
   font-weight: 1000;
   font-size: larger;
 }
 
-/* ------------------------------------------------------Footer---------------------------------------------------------- */
+/* ------------------------------------------ FEEDBACK --------------------------------------------------------*/
+#feedback {
+  display: flex;
+  justify-content: center;
+}
 
+#feedback-form {
+  max-width:50rem;
+}
+
+div .user-details {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+
+.text-input {
+  padding-bottom: 0.5em;
+}
+
+.range-labels {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-label {
+  font-family: var(--secondary-font);
+  font-weight: 1000;
+  font-size: large;
+}
+
+
+
+
+/* ------------------------------------------------------Footer---------------------------------------------------------- */
+footer {
+  margin-bottom: 2rem;
+}
+
+
+/* Copilot Generated --- minor edits to colors */
+.page-divider {
+  height: 2px;
+  background-color: black;
+  margin-bottom: 2rem;
+}
+
+.page-footer {
+  background: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  text-align: center;
+  /* Center content */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-card h3,
+.footer-card p,
+.footer-card a {
+  margin: 0.5rem 0;
+  /* Adds spacing */
+}
+
+.footer-card a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer-card a:hover {
+  text-decoration: underline;
+}
 
 /*---------------------------------------------------- Media Queries------------------------------------------------ */
 
@@ -261,30 +374,4 @@ main {
 
   /* makes all service cards the same height for consistency */
 
-}
-
-
-
-.custom-button-filled {
-  border: 2px solid var(--secondary-color);
-  background-color: var(--highlight-color);
-  color: white;
-}
-
-.custom-button-filled:hover {
-  border: var(--highlight-color);
-  background-color: var(--highlight-color);
-  color: white;
-}
-
-.custom-button-outline {
-  border: 3px solid var(--highlight-color);
-  padding: 7px 25px;
-  color: var(--highlight-color);
-  margin-bottom: 20px;
-}
-
-.custom-button-outline:hover {
-  background-color: var(--highlight-color);
-  color: white;
 }
