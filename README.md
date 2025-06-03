@@ -33,7 +33,7 @@ The live project can be found here: <a target="_blank" href="https://ekennard.gi
 - [Testing and Debugging](#testing-and-debugging)
 - [Validation](#validation)
 - [Resources and Credits](#resources-and-credits)
-- [Assessment Criteria & Post Project Reflections](#assessment-criteria-&-post-project-reflections)
+- [Project Reflections](#project_reflections)
 
 </div>
 
