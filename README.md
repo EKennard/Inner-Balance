@@ -19,7 +19,7 @@ The live project can be found here: <a target="_blank" href="https://ekennard.gi
 - [Introduction](#introduction)
   - [Brief](#brief)
   -	[Key objectives](#key-objectives)
-- [UX/UI Design](#ux/ui_design)
+- [Design](#design)
   -	[User Stories](#user-stories)
   -	[Wireframes](#wireframes)
   -	[Colour Design](#colour-design)
@@ -33,7 +33,7 @@ The live project can be found here: <a target="_blank" href="https://ekennard.gi
 - [Testing and Debugging](#testing-and-debugging)
 - [Validation](#validation)
 - [Resources and Credits](#resources-and-credits)
-- [Project Reflections](#project_reflections)
+- [Project Reflections](#project-reflections)
 
 </div>
 
@@ -48,7 +48,7 @@ Inner Balance is a wellness-focused website built using HTML, CSS, and Bootstrap
 -	Ensure mobile responsiveness for seamless user experience across devices.
 -	Utilize Bootstrap components for structured and engaging design.
 
-## UX/UI Design
+## Design
 
 The website is designed for:
 - Users seeking beginner-friendly guidance on meditation and breathwork techniques .
