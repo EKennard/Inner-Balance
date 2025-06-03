@@ -116,7 +116,7 @@ All pages have the same colour scheme and basic structure with hero section, mai
 
 
 ## AI Utilisation
-As Ai was required for this project, but I also wanted to do as much codeing of the site myself, I decided to use AI only for the creation of images, written content, and for the coding of the footer section on the intro page. This was partly to illistrate the differences between the capabilities between a human coding and Ai, but mainly as I wanted to gain as much experience as test how ,much I had taken on board.<br> As a result the introduction footer does deviate somewhat from the page colour scheme a little bit, but over I feel it works well.
+As AI was required for this project, but I also wanted to do as much codeing of the site myself, I decided to use AI only for the creation of images, written content, and for the coding of the footer section on the intro page. This was partly to illistrate the differences between the capabilities between a human coding and Ai, but mainly as I wanted to gain as much experience as test how ,much I had taken on board.<br> As a result the introduction footer does deviate somewhat from the page colour scheme a little bit, but over I feel it works well.
 
 ## Deployment
 The site was deployed early on Github Pages which allowed me to debug and test as I was developing the site.
