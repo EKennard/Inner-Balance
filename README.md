@@ -19,7 +19,7 @@ The live project can be found here: <a target="_blank" href="https://ekennard.gi
 - [Introduction](#introduction)
   - [Brief](#brief)
   -	[Key objectives](#key-objectives)
-- [UX/UI Design](#design)
+- [UX/UI Design](#ux/ui_design)
   -	[User Stories](#user-stories)
   -	[Wireframes](#wireframes)
   -	[Colour Design](#colour-design)
@@ -86,16 +86,16 @@ A basic design was chosen to complement the content of the site, and consisted o
 <div>
 
 ### Colour Design 
-The colour pallette for this was purposefully very limited in order to be calming, and to not distract form the content. It consisted of black and white for the font (depending on background contrast needs) alongside a pale yellow/sand for the main backgrouns and highlight colour (though this had some opacity adjustments) and rusty-orange colour hover actions. These had several iterations throughout the deveolpment stage due to user testing (see below).
+The colour pallette for this was purposefully very limited in order to be calming, and to not distract from the content. It consisted of black and white for the font (depending on background contrast needs) alongside a pale yellow/sand for the main backgrouns and highlight colour (though this had some opacity adjustments) and a rusty-orange colour for hover actions and acents. These colours had several iterations throughout the deveolpment stage due to user testing (see below).
 
 There was also a secondary colour shceme planned which followed the brand imagery colours, though this was not implemented for this project.
 
 ![Colour Schemes](readme_images\colour_schemes.png)
 
 ### Imagery
-The majority of the imagery used for the site was AI generated. The exceptions being the Hero image which was aquired from unsplash.com, and the Octopus gif which came from giphly.com. All the static images were compressed using sqoosh before being used.
+The majority of the imagery used for the site was AI generated. The exceptions being the Hero image which was a promintent feature on all pages and was aquired from Unsplash.com, and the Octopus gif features on the Exercices page which came from Giphly.com. All the static images were compressed using Squoosh before being used.Several Hero images were initially tested before settling on the final due to its symetry, general colouring and soothing nature. 
 
-The 'brand' imagery was also AI generated, and then I altered the colours to create the page links, page logo, and the favicon.
+The 'brand' imagery, was produced from a single AI generated image which was copied and have the colour properties altered in Microsoft photo editer. These were then used to create the page links at the bottom of each page, the logo, and the favicon.
 ![Brand Imagery](readme_images\brand_images.png)
 
 ### Fonts
@@ -105,27 +105,31 @@ Two fonts were chosen for the site. The primary font being a more decorative one
 
 ## Features
 ### Navigation
-The main navigation feature of the site cased quite a few problems initially. Inittialy I used a Bootstrap Navbar, however I spent a ridiculous amount of time, compared the the total alotted project time, trying to get it to work properly with my site, and in the end I scrapped it for a homemade button and list using bootstrap classes.
-The end result was more compact and didnt require scaling acros different device sizes.
+The main navigation feature of the site cased quite a few problems initially. Initialy I used a Bootstrap Navbar, however a ridiculous amount of time, compared the the total alotted project time, was spent trying to get it to work properly with the site, and in the end it was scrapped for a homemade button and list using bootstrap classes.
+The end result was more compact and fully responsive, and overall more visually appealing.
 
 ### Main Content
 The main content started off on one page, but as I got more into the project I felt the need to expand the site across several pages.
 All pages have the same colour scheme and basic structure with hero section, main body, and footer.<br><br>The Meditation, Breathwork and Resource pages all feature cards in the main body section, with images, descriptions, and links for the resources. With the exception of the Introduction page, which has links for proffessional mental health bodies, all the footers contain the branded navigation cards for the other 4 main pages.<br><br>The Excercises page features a gif and a message saying "Whoops" as the page is still under construction (purposfully so) and a button to return the use to the into page.<br><br> The final page contains a feedback form with three text input feilds for name and elaim, and 2 bootstrap ranges for the user do indicate their happines with the layour and accessibility. The submit buttom returns the Code Institutes code dump window with the form imputs.
 
+![site_features](readme_images\site_features_and_layout.png)
+
 
 ## AI Utilisation
-As Ai was required for this project, but I wanted to code the site myself, I decided to use AI only for the creation of images, writen content, and for the coding of the footer section on the intro page, to illistrate the differences between the capabilities of a human (myself) and Ai. As a result the introduction footer does deviate somewhat from the page colour scheme a little bit, but over I feel it works well.
+As Ai was required for this project, but I also wanted to do as much codeing of the site myself, I decided to use AI only for the creation of images, written content, and for the coding of the footer section on the intro page. This was partly to illistrate the differences between the capabilities between a human coding and Ai, but mainly as I wanted to gain as much experience as test how ,much I had taken on board.<br> As a result the introduction footer does deviate somewhat from the page colour scheme a little bit, but over I feel it works well.
 
 ## Deployment
 The site was deployed early on Github Pages which allowed me to debug and test as I was developing the site.
 ## Testing and Debugging
-When most of the main conttent was on the Introduction, Meditation and Breahwork pages I sent the live link to a few family and friends to help look for major styling and accesibility issues. The feedback unianimouse feedback from which was:<br>
-A - The font was too hard to read. Too small, and to faint.<br>
-B - The contrast between written content and background colour was not good enough.
+When most of the main content was on the Introduction, Meditation and Breahwork pages I sent the live link to a few family and friends to help look for major styling and accesibility issues. The unanimous feedback from which was:<br>
+A - The font was too small, and to faint.<br>
+B - The contrast between the written content and the coloor of the page background was not good enough.
 
-This allowed me to change the colour scheme to what is now the final version before final deployment.
+This allowed me to change the colour scheme to what is now the final version before final deployment as well as adressing the issues with the font early on.
 
-Much debugging was done throughout the project due to early deployment, and without the use of AI to help I was forced to actually practice skills such as using documentation properly, and using Chrome Dev tools. Overall I feel this was a good decision as it has helped both my understanding, and confidence in using these resources, and in my ability to find solutions for myself.
+Much debugging was done throughout the project due to early deployment, and without the use of AI to help I was forced to rely on my practice skills such as using the documentation, internet research and using Chrome Development tools. Overall I feel this was a good decision as it has helped both my understanding, and confidence in using these resources, and in my ability to find solutions for myself.
+
+A final round of user testing once the project was in a complete state ensured all features were working and still responsive, along with some typos, which were then corrected.
 ## Validation
 The html validation checks took a lot longer than I expected, and infinatly longer than I had hoped. Numerous errors were thrown up, from unclosed tags, end tags without opening tags, buttons within a tags...just to name a few. As a consequence I ended up returning to my good friend 'Documentation' to try and fix the issues, and learning a few more things. After several hours however all pages passed with no errors, and only the occasional trailing closing tag.<br>
 The CSS howver passed without issue on the first try :)
@@ -172,3 +176,5 @@ The CSS howver passed without issue on the first try :)
   - for the modal image of the 7 chakras
   - https://www.healthline.com/health/fitness-exercise/7-chakras
 
+## Project Reflections
+Overall I am pleased with how this project went, and I had a lot of fun creating it. The hardest aspect of the project was encountered in the first day, when I was trying to implement the bootstrap navbar. I couldn't get it styles correcty anf ended up going another route and using a drop down button. <br> The project as a whole has been an invaluable experiecne and has taught me a lot about researching and finding answers to coding issues, and generally cementing all that I had been taught in the course module. <br>We were budgeted 1 day for planning, and three days of building (plus and additional 2 over the weekend if we desired). Of this I used the full planning day, plus the full 3 days building.<br> I had initially wanted to implement a toggle for different colour schemes, and a page with a visual feature that the the user could interact with and would help guide the user in a breathing ecersize and/or meditation. Both of these features would require the use of Javascript, so I have left the page available for these to be added in the future.

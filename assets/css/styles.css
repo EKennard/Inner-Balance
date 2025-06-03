@@ -51,6 +51,9 @@ h2 {
   padding-bottom: 0.5em;
 }
 
+h3 {
+  padding: 0.5rem 0 0.5rem 0;
+}
 h1,
 h2,
 h3,
@@ -407,27 +410,27 @@ footer {
 /* Medium devices (tablets, 768px and up */
 @media screen and (min-width: 768px) {
 
-  /* makes all service cards the same height for consistency */
+
 
 }
 
 /* Large devices (small laptops, 992px and up */
 @media screen and (min-width: 992px) {
 
-  /* makes all service cards the same height for consistency */
+ 
 
 }
 
 /* Extra large devices (large laptops, 1200px and up */
 @media screen and (min-width: 1200px) {
 
-  /* makes all service cards the same height for consistency */
+ 
 
 }
 
 /* Extra extra large devices (large laptops, 1400px and up */
 @media screen and (min-width: 1400px) {
 
-  /* makes all service cards the same height for consistency */
+ 
 
 }
